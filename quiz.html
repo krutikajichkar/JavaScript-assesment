@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+<body>
+   <main>
+    
+       <div id="main-container">
+
+        <div id="modal-wrapper">
+            <div id="backdrop"></div>
+            <div id="result-modal">
+                <h3>Your Result:</h3>
+                <span id="result">0/5</span>
+            </div>
+        </div>
+
+        <a href="./index.html">Back to Home</a>
+
+           <div id="main-heading">
+               <h3>The Quiz App</h3>
+           </div>
+    
+           <div id="main-div">
+           <div id="quiz-wrapper">
+               
+                   <!--section-1-->
+               <section  class="quiz-item">
+                   <h3 id="q1" class="section-1 que1">Question will be displayed here</h3>
+                   <div class="option-wrapper ">
+                       <label>
+                           <input type="radio" value="1" id="q1" name="grp1" class="options-1" required>
+                           <p class="section-1 op1-1 ">option-1</p>
+                       </label>
+                   </div>
+
+                   <div class="option-wrapper">
+                    <label>
+                        <input type="radio" value="2" id="q2" name="grp1" class="options-1" required>
+                        <p class="section-1 op2-1 ">option-2</p>
+                    </label>
+                </div>
+
+                <div class="option-wrapper ">
+                    <label>
+                        <input type="radio" value="3" id="q3" name="grp1" class="options-1" required>
+                        <p class="section-1 op3-1 ">option-3</p>
+                    </label>
+                </div>
+
+                <div class="option-wrapper">
+                    <label>
+                        <input type="radio" value="4" id="q3" name="grp1" class="options-1" required>
+                        <p class="section-1 op4-1 ">option-4</p>
+                    </label>
+                </div>
+               </section>
+
+                <!--section-2-->
+
+               <section  class="quiz-item">
+                <h3 id="q2" class="section-2 que2">Question will be displayed here</h3>
+                <div class="option-wrapper">
+                    <label>
+                        <input type="radio" value="1" id="q1" name="grp2" class="options-2" required>
+                        <p class="section-2 op1-2 ">option-1</p>
+                    </label>
+                </div>
+
+                <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="2" id="q2" name="grp2" class="options-2" required>
+                     <p class="section-2 op2-2 ">option-2</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="3" id="q3" name="grp2" class="options-2" required>
+                     <p class="section-2 op3-2 ">option-3</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="4" id="q4" name="grp2" class="options-2" required>
+                     <p class="section-2 op4-2 ">option-4</p>
+                 </label>
+             </div>
+            </section>
+
+             <!--section-3-->
+
+            <section  class="quiz-item">
+                <h3 class="section-3 que3">Question will be displayed here</h3>
+                <div class="option-wrapper">
+                    <label>
+                        <input type="radio" value="1" id="q1" name="grp3" class="options-3" required>
+                        <p class="section-3 op1-3 ">option-1</p>
+                    </label>
+                </div>
+
+                <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="2" id="q2" name="grp3" class="options-3" required>
+                     <p class="section-3 op2-3 ">option-2</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="3" id="q3" name="grp3" class="options-3" required >
+                     <p class="section-3 op3-3 ">option-3</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="4" id="q4" name="grp3" class="options-3" required>
+                     <p class="section-3 op4-3 ">option-4</p>
+                 </label>
+             </div>
+            </section>
+
+             <!--section-4-->
+
+            <section id="q4" class="quiz-item">
+                <h3 class="section-4 que4">Question will be displayed here</h3>
+                <div class="option-wrapper">
+                    <label>
+                        <input type="radio" value="1" id="q1" name="grp4" class="options-4" required >
+                        <p class="section-4 op1-4 ">option-1</p>
+                    </label>
+                </div>
+
+                <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="2" id="q2" name="grp4" class="options-4" required>
+                     <p class="section-4 op2-4 ">option-2</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="3" id="q3" name="grp4" class="options-4" required>
+                     <p class="section-4 op3-4 ">option-3</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="4" id="q4" name="grp4" class="options-4" required> 
+                     <p class="section-4 op4-4 ">option-4</p>
+                 </label>
+             </div>
+            </section>
+
+             <!--section-5-->
+
+            <section id="q5" class="quiz-item">
+                <h3 class="section-5 que5">Question will be displayed here</h3>
+                <div class="option-wrapper">
+                    <label>
+                        <input type="radio" value="1" id="q1" name="grp5" class="options-5" required>
+                        <p class="section-5 op1-5">option-1</p>
+                    </label>
+                </div>
+
+                <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="2" id="q2" name="grp5" class="options-5" required>
+                     <p class="section-5 op2-5 ">option-2</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="3" id="q3" name="grp5" class="options-5" required>
+                     <p class="section-5 op3-5 ">option-3</p>
+                 </label>
+             </div>
+
+             <div class="option-wrapper">
+                 <label>
+                     <input type="radio" value="4" id="q4" name="grp5" class="options-5" required>
+                     <p class="section-5 op4-5 ">option-4</p>
+                 </label>
+             </div>
+            </section>
+            <button id="submit-btn">Submit</button>
+            
+           </div>
+         
+        </div>
+       </div>
+   </main>
+
+    <script src="./quiz.js"></script>
+</body>
+</html>

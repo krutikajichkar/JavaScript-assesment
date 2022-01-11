@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color:#19cbf7;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+    position: absolute;
+    top: 18px;
+    left: 24px;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 5px 4px black;
+    font-size: 60px;
+    font-weight: 600;
+    margin:0;
+}
+#main-container{
+    width: 100%;
+    height: 100vh;
+    padding: 4% 16%;
+    box-sizing: border-box;
+}
+#players-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px;
+    margin-top: 36px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+#players-wrapper{
+width: 70%;
+padding-right: 16px;
+border-right: 1px solid #ccc;
+margin: 0;
+}
+#video-player{
+    height: 400px;
+    width: 100%;
+}
+#video-actions{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#video-actions p {
+    font-size: 24px;
+    color: rgba(0,0,0,0.7);
+    padding: 16px;
+    margin: 0; 
+}
+#video-actions i{
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
+    padding: 8px;
+}
+#video-title{
+    font-size: 36px;
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    
+}
+#video-description{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 0;
+    color: rgba(0,0,0,0.7);
+}
+#playlist-wrapper{
+    width: 30%;
+    margin-left: 16px;
+}
+.playlist-card{
+    width: 100%;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.playlist-card h3{
+    padding-left: 16px;
+}
+.thumbnail{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.active-card{
+    border: 4px solid #fad744;
+}

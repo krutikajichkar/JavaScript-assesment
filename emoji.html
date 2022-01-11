@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji page</title>
+    <link rel="stylesheet" href="./emoji.css">
+    <script src="https://kit.fontawesome.com/4bb1a53c41.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <main>
+       <a href="./index.html">Back to Home</a>
+       <div id="main-container">
+           <h1>The Emoji Maker</h1>
+           <div id="card-container">
+               <div id="skin-card" class="card left-card">
+                   <h3>Select Color</h3>
+                   <div id="colors">
+                       <img id="green-skin" src="./assets/green.png" alt="green"  >
+                       <img id="red-skin" src="./assets/red.png" alt="red"  >
+                       <img id="yellow-skin" src="./assets/yellow.png" alt="yellow"  >
+                   </div>
+                   <i class="fas fa-chevron-right next-step show-eyes-card "></i>
+                </div>
+
+                <div id="eyes-card" class="card left-card">
+                    <h3>Select Eyes</h3>
+                    <div>
+                        <img id="eye-laughing" src="./assets/laughing.png" alt="laughing">
+                        <img id="eye-long" src="./assets/long.png" alt="long">
+                        <img id="eye-normal" src="./assets/normal.png" alt="normal">
+                    </div>
+                    <div>
+                        <img id="eye-winking" src="./assets/winking.png" alt="winking">
+                        <img id="eye-rolling" src="./assets/rolling.png" alt="rolling">
+                        <img id="eye-closed" src="./assets/closed.png" alt="closed">
+                    </div>
+                    <i class="fas fa-chevron-left previous-step show-skin-card"></i>
+                    <i class="fas fa-chevron-right next-step show-mouth-card" ></i>
+                </div>
+
+                <div id="mouth-card" class="card left-card">
+                    <h3>Select Mouth</h3>
+                    <div>
+                        <img id="mouth-open" src="./assets/open.png" alt="open">
+                        <img id="mouth-sad" src="./assets/sad.png" alt="sad">
+                        <img id="mouth-smiling" src="./assets/smiling.png" alt="smiling">
+                    </div>
+                    <div>
+                        <img id="mouth-straight" src="./assets/straight.png" alt="straight">
+                        <img id="mouth-teeth" src="./assets/teeth.png" alt="teeth">
+                    </div>
+                    <i class="fas fa-chevron-left previous-step show-eyes-card"></i>
+                </div>
+
+               <div class="card right-card">
+                   <div id="emoji">
+                       <img src="" id="skin">
+                       <img src=""  id="eyes">
+                       <img src="" id="mouth">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </main>
+   <script src="./emoji.js"></script>
+</body>
+</html>
