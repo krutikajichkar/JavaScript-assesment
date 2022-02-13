@@ -65,17 +65,17 @@ cursor: pointer;
 {
     background-color: rgb(74, 61, 105);
     
-    
 }
 .wrapper:nth-child(odd)
 {
     background-color: rgb(240, 240, 44);
-    
-
 }
 .wrapper a{
     text-decoration: none;
-    color:beige;
+    color: beige;
     font-size: 28px;
     font-weight: 500;
 }
+
+
+
